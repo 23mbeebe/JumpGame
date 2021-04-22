@@ -138,7 +138,7 @@ function playGame(){
     inputs();
     getCSSvalues();
     boundaryCheck();
-    //checkDead();
+    checkDead();
 }
 
 setInterval(playGame, 10);
