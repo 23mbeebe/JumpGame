@@ -66,7 +66,7 @@ function startGame(){
     event.preventDefault();
     document.getElementById("score").innerHTML = score;
     document.getElementById("highScore").innerHTML = highScore;
-    lowBlock.style.animation = "blockAnimate 1ms linear infinite";    
+    lowBlock.style.animation = "blockAnimate 1000ms linear infinite";    
 }
 
 
